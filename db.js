@@ -1,7 +1,7 @@
 const { Pool } = require('pg');
 
 const pool = new Pool({
-  user: process.env.DB_USER || 'postgres', // Ex: postgres
+  user: process.env.DB_USER || 'loop', // Ex: postgres
   host: process.env.DB_HOST || 'loop.postgres.database.azure.com',
   database: process.env.DB_NAME || 'loop',
   password: process.env.DB_PASSWORD || 'TI2PUCMG!',
